@@ -1,0 +1,13 @@
+.code-wrap{
+    display: flex;
+    flex-direction: column ;
+    padding: 15px;
+    padding-bottom: 25px;
+}
+
+.input{
+
+    padding-left: 15px;
+    height: 50px;
+
+}

@@ -1,0 +1,16 @@
+.code-wrap{
+    display: flex ;
+    flex-direction: column ;
+    padding: 15px;
+    padding-bottom: 25px;
+    width: 300px;
+    padding-left: 30px;
+}
+
+.img{
+
+    padding-left: 100px;
+    height: 700px;
+}
+
+

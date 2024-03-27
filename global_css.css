@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #7208ec;
+    background-image: linear-gradient(90deg, #5602a5 0%, #12121e 100%);
+}
+
+.header-wrap{
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-between;
+    padding: 0 2%;
+    width: auto;
+    height: 50px;
+    background-color: #12121e62;
+    
+}
+
+.input{
+
+    border-radius: 5px;
+    background-image: linear-gradient(90deg, #910aeb 0%, #b8b8b8 100%);
+    border: none;
+}
+
+.h2-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.a-header{
+    font-size: 2.1vh;
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: white
+}
+
+.div-wrap{
+    padding-top: 3%;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    gap: 15px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+}
+
+.code-wrap{
+    padding-top: 15px;
+    background-color: #000000;
+    border-radius: 15px;
+    padding-bottom: 15px;
+}
+
+.forms{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 250px;
+    gap: 15px;
+}
+
+.button-11 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 6px 14px !important;
+  font-family: -apple-system, BlinkMacSystemFont, 'Roboto', sans-serif;
+  border-radius: 6px;
+  color: #eee2e2;
+  background: rgb(0, 0, 0);
+  border: none;
+  box-shadow: 0px 0.5px 1px rgba(0, 0, 0, 0.1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-11:focus {
+  box-shadow: 0px 0.5px 1px rgba(0, 0, 0, 0.1), 0px 0px 0px 3.5px rgba(51, 255, 0, 0.5);
+  outline: 0;
+}
+
+
+.img{
+
+    height: 500px;
+}
